@@ -12,7 +12,7 @@ include 'header.php'; ?>
     <div class="about-down"></div>
     <div class="text-1">
         <h1>Ce facem?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit sequi iusto est aperiam natus ipsa asperiores veniam totam modi praesentium nisi, deleniti, ullam nulla pariatur illum inventore sed? Voluptatem, ex?</p>
+        <p>Suntem specializati in furnizarea de logistica de spital - produse reconditionate, second-hand, produse noi (mobilier, aparatura, accesorii si consumabile).</p>
         <h2>Care este misiunea noastra?</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic commodi laboriosam eum modi vero quasi voluptatum illum aperiam! Eius aspernatur fugit suscipit sed debitis veritatis quis perferendis, excepturi ipsam modi!</p>
     </div>
@@ -42,9 +42,14 @@ include 'header.php'; ?>
     </div>
     <div class="text-3">
         <h2>De ce suntem mandrii?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis itaque explicabo saepe voluptatum ea cum aperiam, quae commodi quis officiis esse consectetur delectus aliquid dolores, reprehenderit, porro incidunt iste laborum.</p>
-        <h2>Cum este sa lucrezi cu HOBA?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, nam. Nobis repudiandae laborum quidem sed, alias totam atque at, perferendis provident ea quia cum corporis reprehenderit voluptate commodi animi? Ad?</p>
+        <p>In cei 11 ani de la infiintare, am reusit sa atragem de partea noastra parteneri cu renume din 
+           GERMANIA, FRANTA, SUEDIA si MAREA BRITANIE. Ne consideram in acest sector ca fiind 
+           „PROMOVATORI IN PIATA” a acestui tip de serviciu. Ne asumam toata raspunderea pentru produsele livrate de catre firma noastra. 
+           In ultimii 5 ani, ne-am specializat in ceea ce inseamna  reconditionarea mobilierului de spital si a aparaturi medicale 
+           prin colaborarea cu firme din Germania .
+        </p>
+        <h2>Prietenosi cu mediul!</h2>
+        <p>Incepand cu 2010 am trecut la protejarea mediului – in special in domeniul medical. Din acest punct de vedere noi nu aruncam ci RECONDITIONAM.</p>
     </div>
 </div>
 

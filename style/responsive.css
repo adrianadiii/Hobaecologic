@@ -273,7 +273,7 @@
     height: 100%;
   }
   .Adresa, .Email, .Telefon{
-    width: 300px;
+    width: 330px;
   }
   .btn input{
     width: 150px;
@@ -349,6 +349,18 @@
   .about-us p{
     margin: 0 20px;
   }
+  .text-1 p,
+  .text-2 p{
+    font-size: 0.9rem;
+  }
+  .parere-1 p,
+  .parere-2 p{
+    font-size: 0.9rem;
+  }
+  .parere-1,
+  .parere-2{
+    margin-bottom: 0;
+  }
 }
 
 @media (max-width: 375px){
@@ -359,7 +371,7 @@
     margin: 50px 10px;
   }
   .program {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     top: 19%;
     left: 62%;
   }
@@ -405,5 +417,17 @@
   }
   .image-1 a img{
     width: 115px;
+  }
+  .program{
+    top: 18%;
+  }
+  .coloana-stanga ul li a{
+    font-size: 0.8rem;
+  }
+  .row p{
+    font-size: 0.9rem;
+  }
+  .Adresa, .Email, .Telefon{
+    width: 300px;
   }
 }

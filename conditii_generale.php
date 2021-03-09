@@ -8,7 +8,7 @@ include 'header.php' ?>
 
 <div class="container-conditii">
     <div class="conditii">
-        <h1><strong> CONDITII GENERALE DE AFACERI ( CGA )</strong></h1>
+        <h1><strong> CONDITII GENERALE DE AFACERI (CGA)</strong></h1><br>
         <p><strong>1. GENERALITATI</strong><br>
         Aceste CGA sunt recunoscute de către client, prin comanda sa, ca fiind
         un contract acceptat. Alte comunicări sau modificări se fac doar in scris.
