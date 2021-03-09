@@ -1,0 +1,409 @@
+@media (max-width: 1440px){
+  .coloana-stanga ul li{
+      margin: 0 90px;
+  }
+  .categorii-container{
+    margin: 50px 250px ;
+  }
+}
+
+@media (max-width: 1024px){
+  .footer-row{
+      grid-column-gap: 0px;
+  }
+  .coloana-stanga ul li{
+      margin: 0 0;
+  }
+  .cine-suntem{
+    line-height: 2;
+  }
+  .cine-suntem h1{
+    font-size: 1.7rem;
+  }
+  .Cat-1, .Cat-2, .Cat-3, .Cat-4, .Cat-5 {
+    padding: 40px 80px;
+  }
+  .find-us .contact-container .Adresa .locatie p, 
+  .find-us .contact-container .Telefon .numar-telefon p, 
+  .find-us .contact-container .Email .adresa-email p {
+    font-size: 1rem;
+  }
+  .Adresa, .Email, .Telefon {
+    line-height: 1.5;
+  }
+  .image-contact img{
+    height: 400px;
+  }
+  .cine-suntem-image img{
+    width: 100%;
+    padding: 0 80px;
+  }
+  .categorii-container {
+    margin: 50px 150px;
+  }
+  .image-container img {
+    max-height: 450px;
+  }
+  .program{
+    font-size: 1.3rem;
+    top: 39%;
+  }
+  .cine-suntem p {
+    margin: 0px 60px;
+    padding: 0px 20px;
+  }
+  .image-1 img {
+    height: 200px;
+    width: 200px;
+  }
+  .Prod-1 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+        "image-1 info-1"
+        "titlu-1 titlu-1";
+    grid-area: Prod-1;
+    transition: 1s;
+  }
+  .image-1 a img {
+    height: 200px;
+    width: 200px;
+  }
+  .client-1,
+	.client-2{
+		padding: 30px 50px;
+	}
+  .text-1, .text-2{
+    line-height: 1.5;
+  }
+  .foto-1 img, .foto-2 img{
+    height: 410px;
+  }
+}
+
+@media (max-width: 952px){
+	label.logo{
+	  font-size: 30px;
+	  padding-left: 50px;
+	}
+	nav ul li a{
+	  font-size: 16px;
+	}
+}
+
+@media (max-width: 858px){
+	.checkbtn{
+	  display: block;
+	}
+	.navbar-links{
+	  position: fixed;
+	  width: 100%;
+	  /* height: 100vh; */
+	  background: white;
+	  top: 80px;
+	  left: -100%;
+	  text-align: center;
+	  transition: all .5s;
+	}
+	nav ul li{
+	  display: block;
+	  margin: 50px 0;
+	  line-height: 30px;
+	}
+	nav ul li a{
+	  font-size: 20px;
+	}
+	a:hover,a.active{
+	  background: none;
+	  color: #0082e6;
+	}
+	#check:checked ~ ul{
+	  left: 0;
+	}
+}
+
+
+@media (max-width: 768px){
+  .footer-logo img {
+      height: 6vh;
+      width: 25vh;
+      margin-top: 15px;
+  }
+  .footer-row{
+      display: inline;
+  }
+  .cine-suntem p{
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin: 0 40px;
+    padding: 0;
+  }
+  .Cat-1, .Cat-2, .Cat-3, .Cat-4, .Cat-5 {
+    padding: 37px 50px;
+    font-size: 0.9rem;
+  }
+  .contact-container{
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Adresa, .Email, .Telefon{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 400px;
+  }
+  .find-us h2{
+    margin-bottom: 20px;
+  }
+  .map iframe{
+    margin: 0;
+  }
+  .categorii-container {
+    margin: 50px 50px;
+  }
+  .program {
+    font-size: 1.1rem;
+    top: 28%;
+  }
+  .image-container img{
+    max-height: 300px;
+  }
+  .image-1 a img {
+    height: 170px;
+    width: 150px;
+  }
+  .logo img {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 270px;
+    height: 60px;
+  }
+  .about-us h2 {
+    font-size: 2rem;
+  }
+  .about-us p{
+    font-size: 1.2rem;
+  }
+  .text-1,
+  .text-2{
+    margin: 0;
+  }
+  .text-1 h1, .text-1 h2, .text-2 h1, .text-2 h2 {
+    font-size: 1.4rem;
+  }
+  .about-us{
+    height: 320px;
+  }
+  .text-3{
+    margin: 0 30px;
+    line-height: 1.3;
+  }
+  .foto-3 img{
+    width: 100%;
+  }
+  .client-1, .client-2 {
+    padding: 10px 10px;
+  }
+  .clienti-fericiti{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 425px){
+  nav ul li{
+    margin: 30px 0;
+  }
+  .logo img{
+    width: 200px;
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 50px;
+  }
+  label.logo{
+    padding: 20px;
+  }
+  nav ul li a{
+    font-size: 15px;
+  }
+  .footer-row{
+    display: inline;
+  }
+  .container .contactus h1 {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-top: 0%;
+  }
+  .item.name_email{
+    flex-direction: column;
+  }
+  .item.name_email input[type="text"],
+  .item.name_email input[type="email"],
+  .item.name_email input[type="tel"]{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .cine-suntem p {
+    padding: 0px 20px;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .titlu h2 {
+    font-size: 1.7rem;
+  }
+  .categorii-container{
+    margin: 50px 20px;
+  }
+  .Cat-1, .Cat-2, .Cat-3, .Cat-4, .Cat-5 {
+    padding: 17px 0px;
+    font-size: 0.7rem;
+  }
+  .img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img {
+    height: 120px;
+    width: 130px;
+  }
+  .image-contact img {
+    height: 170px;
+  }
+  .container{
+    height: 100%;
+  }
+  .Adresa, .Email, .Telefon{
+    width: 300px;
+  }
+  .btn input{
+    width: 150px;
+  }
+  .cine-suntem-image img{
+    padding: 0;
+  }
+  .program {
+    font-size: 0.9rem;
+    top: 21%;
+    left: 65%;
+  }
+  .cine-suntem h1 {
+    font-size: 1.3rem;
+  }
+  .image-1 a img {
+    height: 150px;
+    width: 150px;
+  }
+  .about-us{
+    height: 100%;
+  }
+  .about-us h2{
+    font-size: 1.5rem;
+  }
+  .about-us p{
+    font-size: 1rem;
+  }
+  .about-container{
+    display: inline;
+  }
+  .text-2{
+    margin-bottom: 40px;
+  }
+  .foto-1 img, .foto-2 img{
+    height: 100%;
+  }
+  .about-desc{
+    display: inline;
+  }
+  .foto-3 img{
+    height: 250px;
+  }
+  .text-1, .text-2{
+    line-height: 1.3;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 0%);
+    padding: 0 10px;
+  }
+  .text-3{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 0%);
+    margin: 0 0 30px 0;
+    padding: 0 10px;
+  }
+  .clienti-fericiti{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .client-1{
+    margin-bottom: 20px;
+  }
+  .text-3 p{
+    font-size: 0.9rem;
+  }
+  .text-3 h2{
+    font-size: 1.4rem;
+  }
+  .parere-clienti h1 {
+    font-size: 1.7rem;
+  }
+  .about-us p{
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 375px){
+  label.logo{
+    padding: 0px;
+  }
+  .categorii-container {
+    margin: 50px 10px;
+  }
+  .program {
+    font-size: 0.8rem;
+    top: 19%;
+    left: 62%;
+  }
+  .image-container img {
+    max-height: 180px;
+  }
+  .cine-suntem h1 {
+    font-size: 1.4rem;
+  }
+  .cine-suntem p{
+    font-size: 0.6rem;
+  }
+  .image-1 a img {
+    height: 130px;
+    width: 130px;
+  }
+  .text-1 p, .text-2 p{
+    font-size: 0.9rem;
+  }
+  .about-title h1{
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 320px){
+  .find-us .contact-container .Adresa .locatie p, 
+  .find-us .contact-container .Telefon .numar-telefon p, 
+  .find-us .contact-container .Email .adresa-email p {
+    font-size: 0.9rem;
+  }
+  .cine-suntem p{
+    padding: 0;
+  }
+  .titlu h2 {
+    font-size: 1.4rem;
+  }
+  .Cat-1{
+    font-size: 0.6rem;
+  }
+  .img-1 img{
+    height: 110px;
+    width: 90px;
+  }
+  .image-1 a img{
+    width: 115px;
+  }
+}

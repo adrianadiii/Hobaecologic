@@ -1,0 +1,567 @@
+/* Aparatura medicala Categorie produse */
+/* =============== */
+.lista-produse,
+.produse-aparatura-medicala{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	/* margin-left: 100px;
+	margin-right: 100px; */
+}
+
+.produse-aparatura-medicala img{
+	width: 100%;
+	height: 400px;
+}
+
+.produse-aparatura-medicala h1,
+.produse-aparatura-medicala p{
+	text-align: center;
+}
+
+.produse-aparatura-medicala h1{
+	color: #53a0ca;
+}
+
+.aparatura-container {
+	margin: 10px 5px 10px 5px;
+	border: 2px solid #0c6180;
+    background: rgb(236 236 236);
+    text-align: center;
+    width: 550px;
+    display: inline-block;
+	transition: 1s;
+}
+
+/* .aparatura-container:hover {
+	background: #53a0ca;
+	transition: 1s;
+} */
+  
+.Prod-1 {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1.7fr 0.3fr;
+	gap: 10px 0px;
+	grid-template-areas:
+	  "image-1 info-1"
+	  "titlu-1 titlu-1";
+	grid-area: Prod-1;
+	transition: 1s;
+}
+  
+.image-1 { 
+	grid-area: image-1;
+	align-self: center;
+}
+  
+.info-1 { 
+	grid-area: info-1;
+	align-self: center;
+}
+  
+.titlu-1 { 
+	grid-area: titlu-1;
+	align-self: center;
+}
+
+.image-1 img{
+	height: 240px;
+    width: 220px;
+}
+
+.info-1 p{
+	text-align: justify;
+	font-size: 0.9rem;
+}
+
+/* .Prod-1:hover {
+	color: white;
+	transition: 1s;
+} */
+
+
+
+
+
+
+/* Popup with description */ 
+/* ============================ */
+
+/* 
+#add {
+	cursor:pointer;
+}
+
+
+.bg-modal{
+	margin: 0 30px;
+	width:85%;
+	height:100%;
+	position: fixed;
+	top:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+}
+.modal-content{
+	width:1000px;
+	height:600px;
+	background: rgb(64,82,140);
+	background: linear-gradient(90deg, rgba(64,82,140,1) 20%, rgba(64,82,140,1) 40%, rgba(73,167,64,1) 60%, rgba(73,167,64,1) 80%);
+	border-radius:5px;
+	position:relative;
+}
+.close{
+	position:absolute;
+	top:0;
+	right:14px;
+	font-size:50px;
+	transform:rotate(45deg);
+	cursor:pointer;
+}
+#des{
+	width:150px;
+	height:50px;
+	position:absolute;
+	left:150px;
+	top:190px;
+	border-color:black;
+} */
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 555; /* Sit on top */
+    padding-top: 170px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #40528c;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+	width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+	text-align: center;
+    padding: 2px 16px;
+    /* background-color: #4ca83f;
+    color: white; */
+}
+
+.modal-body {
+	background: rgb(14,159,64);
+	background: linear-gradient(90deg, rgba(14,159,64,1) 20%, rgba(73,167,64,1) 40%, rgba(33,126,183,1) 60%, rgba(64,82,140,1) 80%);
+	padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #4ca83f;
+    color: white;
+}
+
+
+
+/* Manual slider  */ 
+/* ============================ */
+
+
+.mySlides1{
+	display: none
+}
+/* img {
+	vertical-align: middle;
+} */
+
+.slideshow-container {
+	margin-bottom: 40px;
+	width: 100%;
+	position: relative;
+}
+  
+  /* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+  
+  /* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+  
+.prev{
+	left: 0;
+}
+  
+  /* The dots/bullets/indicators */
+/* .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+} */
+  
+/* .active, .dot:hover {
+	background-color: #717171;
+}
+   */
+  /* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+  
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+  
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+.modal-body {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.2fr 1.8fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		". ."
+		"slideshow-container full-text";
+}
+.slideshow-container { grid-area: slideshow-container; }
+.full-text { grid-area: full-text; }
+
+.full-text{
+	color: black;
+	
+}
+
+.full-text p{
+	padding: 0 50px;
+}
+
+.button {
+	background-color: white;
+	color: #3595c8;
+	border: 2px solid #0c6180;
+	border-radius:10px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #3595c8;
+	color: white;
+	transition: 0.5s;
+}
+
+
+
+
+.cat-prod {
+	background: #53a0ca;
+    margin-bottom: 15px;
+    border-radius: 100px;
+	display: grid;
+	grid-template-columns: 1.8fr 1fr;
+	grid-template-rows: 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "Cat-1 img-1";
+	transition: 1s;
+}
+
+.cat-prod:hover{
+	transition: 1s;
+	background: rgb(80, 128, 182);
+}
+
+
+/* DETALII PRODUSE */
+
+/* .produse-container{
+	background: #3595c8;
+} */
+
+.detalii-produse{
+	margin: 100px 200px 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.1fr 1.7fr;
+	gap: 0px 50px;
+	grid-template-areas:
+		"modal-header modal-header"
+		"slideshow-container full-text";
+}
+
+.full-text { grid-area: full-text; }
+.slideshow-container { grid-area: slideshow-container; }
+.modal-header { grid-area: modal-header; }
+
+.full-text p{
+	font-size: 1.1rem;
+	text-align: justify;
+    line-height: 1.8;
+	background: #e4e1e1;
+}
+
+.modal-header h2{
+	color: #53a0ca;
+}
+
+.image img{
+	width: 100%;
+    height: 660px;
+}
+
+/* DETAILS PRODUCT */
+/* ======================== */
+
+
+
+
+/* PAGINATION */
+/* ================== */
+
+.pagination{
+	position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.pagination li a{
+	padding: 10px;
+    background: #53a0ca;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+	transition: 1s;
+}
+
+.pagination li a:hover{
+	background: #0c6180;
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+/*===========================*/
+
+
+@media (max-width: 1024px){
+	.aparatura-container{
+		width: 480px;
+	}
+	.produse-aparatura-medicala img{
+		height: 350px;
+	}
+	.Prod-1{
+		gap: 0;
+	}
+	.detalii-produse{
+		margin: 100px 50px 30px;
+		gap: 0 20px;
+	}
+	.full-text{
+		margin: 0 0px;
+	}
+	.image img{
+		height: 560px;
+	}
+}
+
+@media (max-width: 768px){
+	.produse-aparatura-medicala img {
+    	height: 300px;
+	}
+	.produse-aparatura-medicala h1{
+		font-size: 1.6rem;
+	}
+	.produse-aparatura-medicala p{
+		font-size: 0.9rem;
+	}
+	.info-1 p{
+		font-size: 0.8rem;
+	}
+	.detalii-produse {
+		margin: 100px 10px 30px;
+		gap: 0 10px;
+	}
+	.image img {
+		height: 490px;
+	}
+	.full-text p{
+		font-size: 1rem;
+		padding: 0;
+	}
+	.aparatura-container {
+		width: 360px;
+	}
+}
+
+@media (max-width: 425px){
+	.produse-aparatura-medicala img {
+		height: 200px;
+	}
+	.aparatura-container {
+		width: 380px;
+	}
+	.produse-aparatura-medicala h1 {
+		font-size: 1.4rem;
+	}
+	.produse-aparatura-medicala p{
+		font-size: 0.8rem;
+	}
+	.detalii-produse {
+		margin: 100px 20px 30px;
+		display: inline-block;
+	}
+	.image img {
+		height: 400px;
+	}
+	.full-text p{
+		line-height: 1.1;
+	}
+	.slideshow-container{
+		margin-bottom: 10px;
+	}
+	.button{
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 375px){
+	.info-1 p {
+		font-size: 0.7rem;
+		text-align: start;
+	}
+	.aparatura-container {
+		width: 340px;
+	}
+	.produse-aparatura-medicala img {
+		height: 150px;
+	}
+	.produse-aparatura-medicala h1 {
+		font-size: 1.2rem;
+	}
+	.detalii-produse{
+		margin: 100px 10px 30px;
+	}
+	.image img {
+		height: 300px;
+	}
+	.full-text p{
+		font-size: 0.9rem;
+	}
+}
+
+@media (max-width: 320px){
+	.aparatura-container {
+    	width: 310px;
+	}
+	.pagination li a{
+		padding: 5px;
+		margin: 2px;
+	}
+}

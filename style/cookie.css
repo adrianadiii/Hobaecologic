@@ -1,0 +1,35 @@
+
+
+.container-cookie{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.container-cookie {
+display: grid;
+}
+
+.cookie h1{
+    text-align: center;
+}
+
+.cookie p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 425px){
+    .container-cookie{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cookie h1{
+        font-size: 1.3rem;
+    }
+    .cookie p{
+        font-size: 0.9rem;
+    }
+}

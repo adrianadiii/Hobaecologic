@@ -1,0 +1,35 @@
+
+
+.container-conditii{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+  
+.container-conditii {
+    display: grid;
+}
+
+.conditii h1{
+    text-align: center;
+}
+
+.conditii p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 425px){
+    .container-conditii{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .conditii h1{
+        font-size: 1.3rem;
+    }
+    .conditii p{
+        font-size: 0.9rem;
+    }
+}

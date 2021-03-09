@@ -1,0 +1,37 @@
+
+
+.container-page{
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.container-gdpr {
+display: grid;
+}
+
+.container-gdpr h1{
+    text-align: center;
+}
+
+.container-gdpr p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 425px){
+    .container-page{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container-gdpr h1{
+        font-size: 1.3rem;
+    }
+    .container-gdpr p{
+        font-size: 0.9rem;
+    }
+}
