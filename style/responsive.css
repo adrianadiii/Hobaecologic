@@ -32,7 +32,7 @@
     line-height: 1.5;
   }
   .image-contact img{
-    height: 400px;
+    height: 350px;
   }
   .cine-suntem-image img{
     width: 100%;
@@ -81,6 +81,9 @@
   }
   .foto-1 img, .foto-2 img{
     height: 410px;
+  }
+  .contact-container{
+    gap: 0 10px;
   }
 }
 
@@ -211,6 +214,9 @@
     margin-left: 70px;
     margin-right: 70px;
   }
+  .image-contact img{
+    height: 310px;
+  }
 }
 
 @media (max-width: 425px){
@@ -218,10 +224,10 @@
     margin: 30px 0;
   }
   .logo img{
-    width: 200px;
+    width: 230px;
     margin-left: 0px;
-    margin-top: 15px;
-    height: 50px;
+    margin-top: 10px;
+    height: 60px;
   }
   label.logo{
     padding: 20px;
@@ -360,6 +366,9 @@
   .parere-1,
   .parere-2{
     margin-bottom: 0;
+  }
+  label.logo{
+    margin-left: 0;
   }
 }
 

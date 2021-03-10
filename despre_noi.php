@@ -4,7 +4,9 @@ include 'header.php'; ?>
 
 <div class="about-us">
     <h2>Cine suntem?</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit sequi iusto est aperiam natus ipsa asperiores veniam totam modi praesentium nisi, deleniti, ullam nulla pariatur illum inventore sed? Voluptatem, ex?</p>
+    <p>O companie românească, care este concentrată pe calitate, consultanță înainte de
+       vânzare, respectarea cu strictețe a clientului, precum și a regulilor de business.
+    </p>
 </div>
 
 <div class="about-container">
@@ -12,33 +14,52 @@ include 'header.php'; ?>
     <div class="about-down"></div>
     <div class="text-1">
         <h1>Ce facem?</h1>
-        <p>Suntem specializati in furnizarea de logistica de spital - produse reconditionate, second-hand, produse noi (mobilier, aparatura, accesorii si consumabile).</p>
+        <p>Oferim produse și soluții inovative pentru sectorul medical, produse ecologice de medie
+            și înaltă calitate. <br>
+            Suntem specializati in furnizarea de logistica de spital - produse reconditionate, second-hand, produse noi (mobilier, aparatura, accesorii si consumabile).</p>
         <h2>Care este misiunea noastra?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic commodi laboriosam eum modi vero quasi voluptatum illum aperiam! Eius aspernatur fugit suscipit sed debitis veritatis quis perferendis, excepturi ipsam modi!</p>
+        <p>De la specialiști pentru specialiști!</p>
     </div>
     <div class="foto-1">
-        <img src="img/beautiful-green-leaf.jpg" alt="">
-    </div>
-    <div class="foto-2">
-        <img src="img/logo-web.jpg" alt="">
+        <img src="img/business.jpg" alt="">
     </div>
     <div class="text-2">
-        <h1>De cat timp suntem pe piata?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit sequi iusto est aperiam natus ipsa asperiores veniam totam modi praesentium nisi, deleniti, ullam nulla pariatur illum inventore sed? Voluptatem, ex?</p>
-        <h2>De ce HOBA?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic commodi laboriosam eum modi vero quasi voluptatum illum aperiam! Eius aspernatur fugit suscipit sed debitis veritatis quis perferendis, excepturi ipsam modi!</p>
+        <div class="valori-titlu">
+            <h1>Care sunt valorile noastre?</h1>
+        </div>
+        <div class="valori-1"></div>
+        <div class="valori-2"></div>
+        <div class="valori-3"></div>
+        <div class="valori-img1">
+            <i class="fas fa-8x fa-certificate"></i>
+        </div>
+        <div class="valori-scris1">
+            <p>Avem o vastă experientă in domeniu.</p>
+        </div>
+        <div class="valori-img2">
+            <i class="fas fa-8x fa-leaf"></i>
+        </div>
+        <div class="valori-scris2">
+            <p>Prietenoși cu mediul!</p>
+        </div>
+        <div class="valori-img3">
+            <i class="fas fa-8x fa-people-arrows"></i>
+        </div>
+        <div class="valori-scris3">
+            <p>Suntem axati pe nevoile clientului.</p>
+        </div>
     </div>
 </div>
 
 
-<div class="about-title">
+<!-- <div class="about-title">
     <h1>Ce conteaza pentru noi?</h1>
-</div>
+</div> -->
 
 
 <div class="about-desc">
     <div class="foto-3">
-      <img src="img/de-la-specialisti.jpg" alt="">
+      <img src="img/earth.png" alt="">
     </div>
     <div class="text-3">
         <h2>De ce suntem mandrii?</h2>

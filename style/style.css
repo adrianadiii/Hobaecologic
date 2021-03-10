@@ -133,7 +133,7 @@ nav ul li a.active{
 .cine-suntem{
 	background: #53a0ca;
     justify-content: center;
-    line-height: 2.3;
+    line-height: 2;
     /* margin-left: 50px;
     margin-right: 50px; */
     color: white;
@@ -144,8 +144,9 @@ nav ul li a.active{
 }
 
 .cine-suntem p{
-	margin: 0 200px;
-	padding: 0px 40px;
+	text-align: center;
+	margin: 0 150px;
+    padding: 20px 0px;
 }
 
 .cine-suntem-image{
@@ -594,19 +595,16 @@ footer{
 	grid-template-rows: 1fr 1fr;
 	gap: 0px 0px;
 	margin-bottom: 50px;
+	background: rgb(236 236 236);
   }
   
   .about-up { 
 	grid-area: 1 / 1 / 2 / 3;
-	background: rgb(255,255,255);
-background: linear-gradient(270deg, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 50%);
+	background: white;
 }
   
   .about-down {
-	grid-area: 2 / 1 / 3 / 3;
-	background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 50%);
-}
+	grid-area: 2 / 1 / 3 / 3;}
   
   .text-1 { grid-area: 1 / 1 / 2 / 2; }
   
@@ -614,15 +612,73 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 
   
   .foto-2 { grid-area: 2 / 1 / 3 / 2; }
   
-  .text-2 { grid-area: 2 / 2 / 3 / 3; }
+  .text-2 { grid-area: 2 / 1 / 3 / 3; }
   
 
-.text-1,
-.text-2{
+.text-1{
 	margin: 0 50px;
 	align-self: center;
 	line-height: 2;
 }
+
+
+.text-2{
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.3fr;
+  gap: 0px 0px;
+}
+.valori-titlu { grid-area: 1 / 1 / 2 / 4; }
+.valori-1 { grid-area: 2 / 1 / 4 / 2; }
+.valori-2 { grid-area: 2 / 2 / 4 / 3; }
+.valori-3 { grid-area: 2 / 3 / 4 / 4; }
+.valori-img1 { grid-area: 2 / 1 / 3 / 2; }
+.valori-img2 { grid-area: 2 / 2 / 3 / 3; }
+.valori-img3 { grid-area: 2 / 3 / 3 / 4; }
+.valori-scris1 { grid-area: 3 / 1 / 4 / 2; }
+.valori-scris2 { grid-area: 3 / 2 / 4 / 3; }
+.valori-scris3 { grid-area: 3 / 3 / 4 / 4; }
+
+.valori-titlu{
+	align-self: center;
+}
+
+
+.valori-img1,
+.valori-img2,
+.valori-img3{
+	align-self: center;
+}
+
+.fa-certificate,
+.fa-leaf,
+.fa-people-arrows{
+	color: #53a0ca;
+	transition: 1s;
+}
+
+.fa-certificate:hover{
+	color: rgb(146, 146, 29);
+	transition: 1s;
+}
+
+.fa-leaf:hover{
+	color: #50aa48;
+	transition: 1s;
+}
+
+.fa-people-arrows:hover{
+	color: rgb(165, 44, 44);
+	transition: 1s;
+}
+
+.valori-scris1 p,
+.valori-scris2 p,
+.valori-scris3 p{
+	font-size: 2rem;
+}
+
+
 
 .text-1 h1,
 .text-1 h2,
@@ -631,12 +687,14 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 
 	color: #53a0ca;
 }
 
+.foto-1{
+	padding: 20px 50px; 
+}
 
-
-.foto-1 img,
-.foto-2 img{
+.foto-1 img{
 	width: 100%;
 	height: 500px;
+	border-radius: 70px;
 }
 
 .about-title{
@@ -666,6 +724,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 
 .foto-3 {
 	grid-area: foto-3;
 	text-align: center;
+	padding: 10px 100px;
 }
   
 .text-3 { grid-area: text-3; }
