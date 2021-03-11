@@ -5,6 +5,13 @@
   .categorii-container{
     margin: 50px 250px ;
   }
+  .experienta{
+		left: 75%;
+		bottom: 29%;
+	}
+  .foto-3{
+    padding: 10px 50px;
+  }
 }
 
 @media (max-width: 1024px){
@@ -76,14 +83,26 @@
 	.client-2{
 		padding: 30px 50px;
 	}
-  .text-1, .text-2{
+  .text-1{
     line-height: 1.5;
   }
-  .foto-1 img, .foto-2 img{
+  .foto-1 img{
     height: 410px;
   }
   .contact-container{
     gap: 0 10px;
+  }
+  .experienta {
+    left: 65%;
+    bottom: 26%;
+    padding: 0px 90px;
+  }
+  .foto-3 {
+    padding: 10px 30px;
+    align-self: center;
+  }
+  .text-2{
+    gap: 65px 0;
   }
 }
 
@@ -194,7 +213,7 @@
   .text-2{
     margin: 0;
   }
-  .text-1 h1, .text-1 h2, .text-2 h1, .text-2 h2 {
+  .text-1 h1, .text-2 h1, .text-3 h1 {
     font-size: 1.4rem;
   }
   .about-us{
@@ -217,6 +236,23 @@
   .image-contact img{
     height: 310px;
   }
+  .foto-1{
+    padding: 5px 0;
+  }
+  .experienta {
+    left: 70%;
+    bottom: 37%;
+    padding: 0px 25px;
+  }
+  .foto-3{
+    padding: 0;
+  }
+  .valori-scris1 p, .valori-scris2 p, .valori-scris3 p {
+    font-size: 1.5rem;
+  }
+  .fa-8x {
+    font-size: 6em;
+  }
 }
 
 @media (max-width: 425px){
@@ -225,7 +261,7 @@
   }
   .logo img{
     width: 230px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 10px;
     height: 60px;
   }
@@ -370,6 +406,21 @@
   label.logo{
     margin-left: 0;
   }
+  .experienta {
+    left: 37%;
+    bottom: 43%;
+    padding: 0px 75px;
+    font-size: 0.9rem;
+  }
+  .fa-8x {
+    font-size: 3em;
+  }
+  .text-2{
+    gap: 15px 0;
+  }
+  .foto-3 {
+    padding: 10px 10px;
+  }
 }
 
 @media (max-width: 375px){
@@ -402,6 +453,15 @@
   }
   .about-title h1{
     font-size: 1.7rem;
+  }
+  .experienta {
+    left: 37%;
+    bottom: 38%;
+    padding: 0px 64px;
+    font-size: 0.8rem;
+  }
+  .parere-clienti h1 {
+    font-size: 1.5rem;
   }
 }
 
@@ -438,5 +498,19 @@
   }
   .Adresa, .Email, .Telefon{
     width: 300px;
+  }
+  .experienta{
+    bottom: 30%;
+    padding: 0px 46px;
+    font-size: 0.7rem;
+  }
+  .text-2 p{
+    font-size: 0.8rem;
+  }
+  .text-2 {
+    margin-bottom: 10px;
+  }
+  .foto-3 img{
+    border-radius: 60px;
   }
 }

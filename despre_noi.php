@@ -17,11 +17,14 @@ include 'header.php'; ?>
         <p>Oferim produse și soluții inovative pentru sectorul medical, produse ecologice de medie
             și înaltă calitate. <br>
             Suntem specializati in furnizarea de logistica de spital - produse reconditionate, second-hand, produse noi (mobilier, aparatura, accesorii si consumabile).</p>
-        <h2>Care este misiunea noastra?</h2>
+        <h1>Care este misiunea noastra?</h1>
         <p>De la specialiști pentru specialiști!</p>
     </div>
     <div class="foto-1">
-        <img src="img/business.jpg" alt="">
+        <img src="img/help-client.jpeg" alt="">
+        <div class="experienta">
+            <p>Din 2010 suntem alături de voi <br> cu produse de specialitate!</p>
+        </div>
     </div>
     <div class="text-2">
         <div class="valori-titlu">
@@ -59,17 +62,17 @@ include 'header.php'; ?>
 
 <div class="about-desc">
     <div class="foto-3">
-      <img src="img/earth.png" alt="">
+      <img src="img/tree-green.jpg" alt="">
     </div>
     <div class="text-3">
-        <h2>De ce suntem mandrii?</h2>
+        <h1>De ce suntem mandrii?</h1>
         <p>In cei 11 ani de la infiintare, am reusit sa atragem de partea noastra parteneri cu renume din 
            GERMANIA, FRANTA, SUEDIA si MAREA BRITANIE. Ne consideram in acest sector ca fiind 
            „PROMOVATORI IN PIATA” a acestui tip de serviciu. Ne asumam toata raspunderea pentru produsele livrate de catre firma noastra. 
            In ultimii 5 ani, ne-am specializat in ceea ce inseamna  reconditionarea mobilierului de spital si a aparaturi medicale 
            prin colaborarea cu firme din Germania .
         </p>
-        <h2>Prietenosi cu mediul!</h2>
+        <h1>Prietenosi cu mediul!</h1>
         <p>Incepand cu 2010 am trecut la protejarea mediului – in special in domeniul medical. Din acest punct de vedere noi nu aruncam ci RECONDITIONAM.</p>
     </div>
 </div>
