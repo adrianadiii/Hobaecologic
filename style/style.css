@@ -590,25 +590,14 @@ footer{
 
 .about-container {
 	text-align: center;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	gap: 0px 0px;
 	margin-bottom: 50px;
-	background: rgb(236 236 236);
-  }
-  
-  .about-up { 
-	grid-area: 1 / 1 / 2 / 3;
-	background: white;
 }
   
-  .about-down {
-	grid-area: 2 / 1 / 3 / 3;}
+
   
-  .text-1 { grid-area: 1 / 1 / 2 / 2; }
+  .foto-1 { grid-area: 1 / 1 / 2 / 2; }
   
-  .foto-1 { grid-area: 1 / 2 / 2 / 3; }
+  .text-1 { grid-area: 1 / 2 / 2 / 3; }
   
   .foto-2 { grid-area: 2 / 1 / 3 / 2; }
   
@@ -619,6 +608,7 @@ footer{
 	margin: 0 50px;
 	align-self: center;
 	line-height: 2;
+	margin-bottom: 50px;
 }
 
 
@@ -626,7 +616,8 @@ footer{
 	display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 0.5fr 0.3fr;
-  gap: 0px 0px;
+  gap: 20px 0px;
+  background: rgb(236 236 236);
 }
 .valori-titlu { grid-area: 1 / 1 / 2 / 4; }
 .valori-1 { grid-area: 2 / 1 / 4 / 2; }
@@ -681,14 +672,12 @@ footer{
 
 
 .text-1 h1,
-.text-1 h2,
-.text-2 h1,
-.text-2 h2{
+.text-2 h1{
 	color: #53a0ca;
 }
 
 .foto-1{
-	padding: 20px 50px; 
+	padding: 20px 300px; 
 }
 
 .foto-1 img{
@@ -697,10 +686,11 @@ footer{
 	border-radius: 70px;
 }
 
-.experienta{
-	position: absolute;
-	left: 76%;
-    bottom: 37%;
+.experienta {
+    position: absolute;
+    left: 16%;
+    bottom: 22%;
+    font-size: 1.3rem;
 }
 
 .about-title{
@@ -833,3 +823,41 @@ footer{
 
 
 
+/* Our team */
+/* ============================= */
+
+.our-team {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 0.2fr;
+	gap: 0px 0px;
+	margin-bottom: 50px;
+}
+  
+.team-1 { grid-area: 1 / 1 / 3 / 2; }
+  
+.team-2 { grid-area: 1 / 2 / 3 / 3; }
+  
+.team-3 { grid-area: 1 / 3 / 3 / 4; }
+  
+.poza-t1 { grid-area: 1 / 1 / 2 / 2; }
+  
+.functie-t1 { grid-area: 2 / 1 / 3 / 2; }
+  
+.poza-t2 { grid-area: 1 / 2 / 2 / 3; }
+  
+.functie-t2 { grid-area: 2 / 2 / 3 / 3; }
+  
+.poza-t3 { grid-area: 1 / 3 / 2 / 4; }
+  
+.functie-t3 { grid-area: 2 / 3 / 3 / 4; }
+
+.team-1, .team-2, .team-3{
+	text-align: center;
+}
+
+.poza-t1 img, .poza-t2 img,  .poza-t3 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}

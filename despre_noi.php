@@ -10,8 +10,12 @@ include 'header.php'; ?>
 </div>
 
 <div class="about-container">
-    <div class="about-up"></div>
-    <div class="about-down"></div>
+    <div class="foto-1">
+        <img src="img/help-client.jpeg" alt="happy clients">
+        <div class="experienta">
+            <p>Din 2010 suntem <br> alături de voi <br> cu produse de specialitate!</p>
+        </div>
+    </div>
     <div class="text-1">
         <h1>Ce facem?</h1>
         <p>Oferim produse și soluții inovative pentru sectorul medical, produse ecologice de medie
@@ -20,12 +24,7 @@ include 'header.php'; ?>
         <h1>Care este misiunea noastra?</h1>
         <p>De la specialiști pentru specialiști!</p>
     </div>
-    <div class="foto-1">
-        <img src="img/help-client.jpeg" alt="">
-        <div class="experienta">
-            <p>Din 2010 suntem alături de voi <br> cu produse de specialitate!</p>
-        </div>
-    </div>
+    
     <div class="text-2">
         <div class="valori-titlu">
             <h1>Care sunt valorile noastre?</h1>
@@ -55,14 +54,12 @@ include 'header.php'; ?>
 </div>
 
 
-<!-- <div class="about-title">
-    <h1>Ce conteaza pentru noi?</h1>
-</div> -->
+
 
 
 <div class="about-desc">
     <div class="foto-3">
-      <img src="img/tree-green.jpg" alt="">
+      <img src="img/tree-green.jpg" alt="eco friendly">
     </div>
     <div class="text-3">
         <h1>De ce suntem mandrii?</h1>
@@ -104,6 +101,39 @@ include 'header.php'; ?>
         <p>Firma Y</p>
     </div>
   </div>
+</div>
+
+
+<div class="about-title">
+    <h1>Echipa noastra:</h1>
+</div>
+
+
+<div class="our-team">
+    <div class="team-1">
+        <div class="poza-t1">
+            <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="functie-t1">
+            <h2>Popescu <br> Specialist vanzari</h2>
+        </div>
+    </div>
+    <div class="team-2">
+        <div class="poza-t2">
+            <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="functie-t2">
+            <h2>Popescu <br> Specialist Web developer</h2>
+        </div>
+    </div>
+    <div class="team-3">
+        <div class="poza-t3">
+            <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="functie-t3">
+            <h2>Popescu <br> Specialist service</h2>
+        </div>
+    </div>
 </div>
 
 

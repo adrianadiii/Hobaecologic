@@ -4,7 +4,7 @@ include 'header.php' ?>
 
 <!--WHERE YOU FIND US-->
 <div class="image-contact">
-    <img src="img/contact-us.jpg" alt="">
+    <img src="img/contact-us.jpg" alt="contact us">
 </div>
 
 <div class="find-us">

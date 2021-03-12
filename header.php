@@ -64,7 +64,7 @@ if(isset($_GET['product_id'])){
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>
     </label>
-    <label class="logo"><a href="index.php"><img src="img/logo-hoba-1.png" alt=""></a></label>
+    <label class="logo"><a href="index.php"><img src="img/logo-hoba-1.png" alt="Hoba Ecologic"></a></label>
     <ul class="navbar-links">
       <li><a class="btn <?php if($active == 'Acasa') echo"active"; ?>" id="acasa" href="index.php">Acasa</a></li>
       <li><a class="btn <?php if($active == 'Despre Noi') echo"active"; ?>" id="despre" href="despre_noi.php">Despre noi</a></li>

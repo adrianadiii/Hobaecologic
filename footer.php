@@ -13,7 +13,7 @@
       </ul>
     </div>
     <div class="footer-logo">
-    <a href="index.php"><img src="img/logo-hoba-1.png" alt=""></a>
+    <a href="index.php"><img src="img/logo-hoba-1.png" alt="Hoba Ecologic"></a>
     </div>
     <div class="coloana-dreapta">
       <ul class="social-links">
