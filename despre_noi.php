@@ -13,7 +13,7 @@ include 'header.php'; ?>
     <div class="foto-1">
         <img src="img/help-client.jpeg" alt="happy clients">
         <div class="experienta">
-            <p>Din 2010 suntem <br> alături de voi <br> cu produse de specialitate!</p>
+            <p>Din <b>2010</b> suntem <br> alături de voi <br> cu produse de <br> specialitate!</p>
         </div>
     </div>
     <div class="text-1">

@@ -24,10 +24,37 @@
     vânzare, respectarea cu strictețe a clientului, precum și a regulilor de business.
     </p> 
 </div>
-<div class="cine-suntem-image">
-        <img src="img/de-la-specialisti.jpg" alt="">
-    </div>
+<!-- <div class="cine-suntem-image">
+    <img src="img/de-la-specialisti.jpg" alt="">
+</div> -->
 
+
+
+<a href="img/moduri.pdf" target="blank">Certificat de excelenta</a>
+
+<div class="produse-noi">
+    <h1>Produse noi:</h1>
+    <div class="produse-noi-container">
+        <div class="prod-1-img">
+            <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="prod-1-title">
+            <h3>Manusi de uz casnic</h3>
+        </div>
+        <div class="prod-2-img">
+            <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="prod-2-title">
+            <h3>Manusi de uz casnic</h3>
+        </div>
+        <div class="prod-3-img">
+           <img src="img/logo-web.jpg" alt="">
+        </div>
+        <div class="prod-3-title">
+            <h3>Manusi de uz casnic</h3>
+        </div>
+    </div>
+</div>
 
     <div class="titlu">
         <h2>Categorii de produse:</h2>

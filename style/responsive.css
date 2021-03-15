@@ -6,11 +6,14 @@
     margin: 50px 250px ;
   }
   .experienta{
-		left: 75%;
-		bottom: 29%;
+		bottom: 19%;
+    font-size: 1.6rem;
 	}
   .foto-3{
     padding: 10px 50px;
+  }
+  .foto-1{
+    padding: 20px 230px;
   }
 }
 
@@ -86,6 +89,9 @@
   .text-1{
     line-height: 1.5;
   }
+  .foto-1{
+    padding: 20px 80px;
+  }
   .foto-1 img{
     height: 410px;
   }
@@ -93,16 +99,19 @@
     gap: 0 10px;
   }
   .experienta {
-    left: 65%;
-    bottom: 26%;
-    padding: 0px 90px;
+    left: 9%;
+    bottom: 24%;
+    font-size: 1.2rem;
   }
   .foto-3 {
-    padding: 10px 30px;
+    padding: 0px 10px;
     align-self: center;
   }
   .text-2{
     gap: 65px 0;
+  }
+  .produse-noi-container {
+    padding: 0px 10px;
   }
 }
 
@@ -209,10 +218,6 @@
   .about-us p{
     font-size: 1.2rem;
   }
-  .text-1,
-  .text-2{
-    margin: 0;
-  }
   .text-1 h1, .text-2 h1, .text-3 h1 {
     font-size: 1.4rem;
   }
@@ -237,21 +242,27 @@
     height: 310px;
   }
   .foto-1{
-    padding: 5px 0;
+    padding: 20px 10px;
   }
   .experienta {
-    left: 70%;
-    bottom: 37%;
-    padding: 0px 25px;
+    left: 1%;
+    bottom: 33%;
   }
   .foto-3{
-    padding: 0;
+    padding: 20px 0;
   }
   .valori-scris1 p, .valori-scris2 p, .valori-scris3 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .fa-8x {
     font-size: 6em;
+  }
+  .our-team{
+    display: inherit;
+  }
+  .prod-1-img img, .prod-2-img img, .prod-3-img img, .prod-4-img img {
+    height: 160px;
+    width: 180px;
   }
 }
 
@@ -342,7 +353,7 @@
     font-size: 1.5rem;
   }
   .about-us p{
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .about-container{
     display: inline;
@@ -352,22 +363,23 @@
   }
   .foto-1 img, .foto-2 img{
     height: 100%;
+    border-radius: 50px;
   }
   .about-desc{
     display: inline;
   }
   .foto-3 img{
+    border-radius: 60px;
     height: 250px;
   }
-  .text-1, .text-2{
+  .text-1{
     line-height: 1.3;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 0%);
     padding: 0 10px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .text-3{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(222,222,222,1) 0%);
     margin: 0 0 30px 0;
     padding: 0 10px;
   }
@@ -407,10 +419,11 @@
     margin-left: 0;
   }
   .experienta {
-    left: 37%;
-    bottom: 43%;
-    padding: 0px 75px;
-    font-size: 0.9rem;
+    /* left: 1%;
+    bottom: 63%; */
+    font-size: 0.8rem;
+    position: relative;
+    text-align: center;
   }
   .fa-8x {
     font-size: 3em;
@@ -419,11 +432,37 @@
     gap: 15px 0;
   }
   .foto-3 {
-    padding: 10px 10px;
+    padding:  0px 10px;
+  }
+  .functie-t1 h2, .functie-t2 h2, .functie-t3 h2{
+    font-size: 1.1rem;
+  }
+  .produse-noi-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.7fr 0.3fr 0.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "prod-1-img prod-2-img"
+      "prod-1-title prod-2-title"
+      "prod-3-img ."
+      "prod-3-title .";
+  }
+  .prod-1-img img, .prod-2-img img, .prod-3-img img, .prod-4-img img {
+    height: 110px;
+    width: 120px;
+  }
+  .prod-1-title h3, .prod-2-title h3, .prod-3-title h3, .prod-4-title h3{
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 375px){
+  .logo img{
+    width: 220px;
+    margin-top: 15px;
+    height: 50px;
+  }
   label.logo{
     padding: 0px;
   }
@@ -449,19 +488,34 @@
     width: 130px;
   }
   .text-1 p, .text-2 p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .about-title h1{
     font-size: 1.7rem;
   }
   .experienta {
-    left: 37%;
-    bottom: 38%;
-    padding: 0px 64px;
-    font-size: 0.8rem;
+    /* left: 1%;
+    bottom: 65%; */
+    font-size: 0.7rem;
+    position: relative;
+    text-align: center;
   }
   .parere-clienti h1 {
     font-size: 1.5rem;
+  }
+  .about-us p{
+    font-size: 0.8rem;
+  }
+  .poza-t1 img, .poza-t2 img, .poza-t3 img {
+    height: 150px;
+    width: 180px;
+  }
+  .produse-noi-container{
+    display: inline;
+  }
+  .prod-1-img img, .prod-2-img img, .prod-3-img img, .prod-4-img img {
+    height: 110px;
+    width: 160px;
   }
 }
 
@@ -499,13 +553,8 @@
   .Adresa, .Email, .Telefon{
     width: 300px;
   }
-  .experienta{
-    bottom: 30%;
-    padding: 0px 46px;
-    font-size: 0.7rem;
-  }
   .text-2 p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .text-2 {
     margin-bottom: 10px;
@@ -513,4 +562,18 @@
   .foto-3 img{
     border-radius: 60px;
   }
+  .fa-8x{
+    font-size: 2em;
+  }
+  .experienta{
+    /* bottom: 64%; */
+    font-size: 0.6rem;
+    position: relative;
+    text-align: center;
+  }
+  .prod-1-img img, .prod-2-img img, .prod-3-img img, .prod-4-img img {
+    height: 110px;
+    width: 130px;
+  }
 }
+

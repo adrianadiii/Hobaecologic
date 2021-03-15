@@ -70,7 +70,7 @@ if(isset($_GET['product_id'])){
       <li><a class="btn <?php if($active == 'Despre Noi') echo"active"; ?>" id="despre" href="despre_noi.php">Despre noi</a></li>
       <li><a class="btn <?php if($active == 'Contact') echo"active"; ?>" id="produse" href="contact.php">Contact</a></li>
       <li><a class="btn <?php if($active == 'Conditii Generale') echo"active"; ?>" id="intrebari" href="conditii_generale.php">Conditii generale</a></li>
-      <li><a class="btn" id="contact" href="#">Link 4</a></li>
+      <li><a class="btn <?php if($active == 'Certificari') echo"active"; ?>" id="contact" href="certificari.php">Certificari</a></li>
     </ul>
   </nav>
 </header>

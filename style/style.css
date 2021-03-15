@@ -104,7 +104,7 @@ nav ul li a.active{
 /* ========================= */
 
 
-.image-container { 
+.image-container {
     width: 100%; 
     text-align:center; 
     margin-bottom: -7px;
@@ -134,8 +134,7 @@ nav ul li a.active{
 	background: #53a0ca;
     justify-content: center;
     line-height: 2;
-    /* margin-left: 50px;
-    margin-right: 50px; */
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -146,16 +145,50 @@ nav ul li a.active{
 .cine-suntem p{
 	text-align: center;
 	margin: 0 150px;
-    padding: 20px 0px;
 }
 
-.cine-suntem-image{
+/* .cine-suntem-image{
 	text-align: center;
     margin-bottom: 50px;
-}
+} */
 
 
 /* ========================= */
+
+
+/* PRODUSE NOI */
+/* ========================= */
+
+.produse-noi h1{
+	text-align: center;
+}
+
+.produse-noi-container {
+	padding: 0px 100px;
+	margin-bottom: 40px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.7fr 0.3fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "prod-1-img prod-2-img prod-3-img"
+	  "prod-1-title prod-2-title prod-3-title";
+}
+.prod-1-img { grid-area: prod-1-img; }
+.prod-1-title { grid-area: prod-1-title; }
+.prod-2-img { grid-area: prod-2-img; }
+.prod-2-title { grid-area: prod-2-title; }
+.prod-3-img { grid-area: prod-3-img; }
+.prod-3-title { grid-area: prod-3-title; }
+.prod-4-img { grid-area: prod-4-img; }
+.prod-4-title { grid-area: prod-4-title; }
+
+.prod-1-img img, .prod-2-img img, .prod-3-img img, .prod-4-img img{
+	height: 200px;
+	width: 200px;
+}
+
 
 /* Titlu cate */
 /* ========================= */
@@ -687,10 +720,11 @@ footer{
 }
 
 .experienta {
+	text-align: left;
     position: absolute;
     left: 16%;
-    bottom: 22%;
-    font-size: 1.3rem;
+    bottom: 23%;
+    font-size: 1.8rem;
 }
 
 .about-title{
@@ -736,6 +770,7 @@ footer{
 	margin: 0 50px;
 	align-self: center;
 	line-height: 2;
+	background: rgb(236 236 236);
 }
 
 .text-3 h1{
@@ -829,7 +864,7 @@ footer{
 .our-team {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 0.2fr;
+	grid-template-rows: 1fr 0.4fr;
 	gap: 0px 0px;
 	margin-bottom: 50px;
 }
@@ -860,4 +895,105 @@ footer{
     height: 200px;
     width: 200px;
     border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CERTIFICARI PAGE */
+/* ================================== */
+
+.certificare-container {
+	margin-top: 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1.5fr 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+	  "certificare-1 certificare-2 certificare-3"
+	  "certificare-1 certificare-2 certificare-3";
+}
+
+.certificare-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"img-certificare-1"
+		"button-certificare-1";
+	grid-area: certificare-1;
+}
+
+.img-certificare-1 { grid-area: img-certificare-1; }
+
+.button-certificare-1 { grid-area: button-certificare-1; }
+
+.certificare-2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"img-certificare-2"
+		"button-certificare-2";
+	grid-area: certificare-2;
+}
+
+.img-certificare-2 { grid-area: img-certificare-2; }
+
+.button-certificare-2 { grid-area: button-certificare-2; }
+
+.certificare-3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"img-certificare-3"
+		"button-certificare-3";
+	grid-area: certificare-3;
+}
+
+.img-certificare-3 { grid-area: img-certificare-3; }
+
+.button-certificare-3 { grid-area: button-certificare-3; }
+
+
+.img-certificare-1, .img-certificare-2, .img-certificare-3{
+	text-align: center;
+}
+
+
+.img-certificare-1 img, .img-certificare-2 img, .img-certificare-3 img{
+	width: 400px;
+	height: 500px;
+}
+
+
+.button-certificare-1, .button-certificare-2, .button-certificare-3{
+	text-align: center;
+	align-self: center;
+}
+
+
+.button-certificare-1 a, .button-certificare-2 a, .button-certificare-3 a{
+	color: #53a0ca;
+	font-size: 17px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.button-certificare-1 a:hover, .button-certificare-2 a:hover, .button-certificare-3 a:hover{
+	background-color: rgb(80, 128, 182);
+	color: white;
+	transition: 1s;
 }
