@@ -43,7 +43,7 @@
                 <div class='aparatura-container'>
                     <div class='Prod-1'>
                         <div class='image-1'>
-                       <a href='details.php?cat=$cat_id&product_id=$pro_id'><img src='admin_area/product_images/$pro_img1' alt=''></a>
+                       <a href='details.php?cat=$cat_id&product_id=$pro_id&product_title=$pro_title'><img src='admin_area/product_images/$pro_img1' alt=''></a>
                         </div>
                         <div class='info-1'>
                             <p> $pro_desc_short</p>

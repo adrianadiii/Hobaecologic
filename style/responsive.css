@@ -15,6 +15,13 @@
   .foto-1{
     padding: 20px 230px;
   }
+  .img-logo img{
+    padding: 0 100px;
+  }
+  .program{
+    top: 75%;
+    left: 78%;
+  }
 }
 
 @media (max-width: 1024px){
@@ -56,7 +63,8 @@
   }
   .program{
     font-size: 1.3rem;
-    top: 39%;
+    top: 51%;
+    left: 80%;
   }
   .cine-suntem p {
     margin: 0px 60px;
@@ -113,6 +121,13 @@
   .produse-noi-container {
     padding: 0px 10px;
   }
+  .img-logo img{
+    padding: 0 70px;
+  }
+  .img-certificare-1 img, .img-certificare-2 img, .img-certificare-3 img {
+    width: 250px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 952px){
@@ -123,6 +138,12 @@
 	nav ul li a{
 	  font-size: 16px;
 	}
+  .logo img {
+    margin-left: -60px;
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+  }
 }
 
 @media (max-width: 858px){
@@ -135,7 +156,7 @@
 	  /* height: 100vh; */
 	  background: white;
 	  top: 80px;
-	  left: -100%;
+	  left: 200%;
 	  text-align: center;
 	  transition: all .5s;
 	}
@@ -196,8 +217,9 @@
     margin: 50px 50px;
   }
   .program {
-    font-size: 1.1rem;
-    top: 28%;
+    font-size: 1rem;
+    top: 36%;
+    left: 81%;
   }
   .image-container img{
     max-height: 300px;
@@ -264,6 +286,13 @@
     height: 160px;
     width: 180px;
   }
+  .img-logo img{
+    padding: 0 50px;
+  }
+  .img-certificare-1 img, .img-certificare-2 img, .img-certificare-3 img {
+    width: 210px;
+    height: 280px;
+  }
 }
 
 @media (max-width: 425px){
@@ -281,6 +310,9 @@
   }
   nav ul li a{
     font-size: 15px;
+  }
+  .image-container img {
+    max-height: 200px;
   }
   .footer-row{
     display: inline;
@@ -335,9 +367,9 @@
     padding: 0;
   }
   .program {
-    font-size: 0.9rem;
-    top: 21%;
-    left: 65%;
+    font-size: 0.8rem;
+    top: 26%;
+    left: 73%;
   }
   .cine-suntem h1 {
     font-size: 1.3rem;
@@ -455,6 +487,17 @@
   .prod-1-title h3, .prod-2-title h3, .prod-3-title h3, .prod-4-title h3{
     font-size: 0.9rem;
   }
+  .img-logo img{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .certificare-container{
+    display: inherit;
+  }
+  .img-certificare-1 img, .img-certificare-2 img, .img-certificare-3 img {
+    width: 210px;
+    height: 230px;
+  }
 }
 
 @media (max-width: 375px){
@@ -471,8 +514,8 @@
   }
   .program {
     font-size: 0.7rem;
-    top: 19%;
-    left: 62%;
+    top: 24%;
+    left: 73%;
   }
   .image-container img {
     max-height: 180px;
@@ -542,7 +585,7 @@
     width: 115px;
   }
   .program{
-    top: 18%;
+    top: 22%;
   }
   .coloana-stanga ul li a{
     font-size: 0.8rem;

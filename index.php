@@ -8,11 +8,11 @@
 
 <body>
 <div class="image-container">
-    <img src="img/breathing2-min.jpg" alt="">
+    <img src="img/pexels-busi1.jpg" alt="business">
     <div class="program">
         <p>Program depozit:</p>
         <p>L-V: 8:30-17:00</p>
-        <p>S-D: INCHIS</p>
+        <p>S-D : I N C H I S</p>
     </div>
 </div>
 
@@ -28,9 +28,6 @@
     <img src="img/de-la-specialisti.jpg" alt="">
 </div> -->
 
-
-
-<a href="img/moduri.pdf" target="blank">Certificat de excelenta</a>
 
 <div class="produse-noi">
     <h1>Produse noi:</h1>

@@ -2,6 +2,11 @@
     $active= 'Certificari';
  include 'header.php' ?>
 
+
+<div class="img-logo">
+  <img src="img/visiune-neu-2019.jpg" alt="">
+</div>
+
 <div class="certificare-container">
   <div class="certificare-1">
     <div class="img-certificare-1">

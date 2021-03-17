@@ -39,12 +39,12 @@ function getCats(){
         $cat_image= $row_image_category['cat_image'];
 
         echo "<div class='cat-prod'>
-                <a href='produse.php?cat=$cat_id'>
+                <a href='produse.php?cat=$cat_id&category=$cat_title'>
                     <div class='Cat-1'>
                         <h2>$cat_title</h2>
                     </div>
                 </a>
-                <a href='produse.php?cat=$cat_id'>
+                <a href='produse.php?cat=$cat_id&category=$cat_title'>
                     <div class='img-1'>
                         <img src='admin_area/product_images/$cat_image' alt=''>
                     </div>

@@ -112,18 +112,18 @@ include 'header.php'; ?>
 <div class="our-team">
     <div class="team-1">
         <div class="poza-t1">
-            <img src="img/logo-web.jpg" alt="">
+            <img src="img/poza-bia.JPG" alt="">
         </div>
         <div class="functie-t1">
-            <h2>Popescu <br> Specialist vanzari</h2>
+            <h2>Bianca <br> Specialist vanzari</h2>
         </div>
     </div>
     <div class="team-2">
         <div class="poza-t2">
-            <img src="img/logo-web.jpg" alt="">
+            <img src="img/poza-adi.JPG" alt="">
         </div>
         <div class="functie-t2">
-            <h2>Popescu <br> Specialist Web developer</h2>
+            <h2>Adi <br> Specialist Web developer</h2>
         </div>
     </div>
     <div class="team-3">
