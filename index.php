@@ -39,10 +39,14 @@
             <h3>Manusi de uz casnic</h3>
         </div>
         <div class="prod-2-img">
-            <img src="img/logo-web.jpg" alt="">
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=3&product_id=128&product_title=Pudra%20Pikosch">
+                <img src="admin_area/product_images/pudra-pikosch.JPG" alt="">
+            </a>
         </div>
         <div class="prod-2-title">
-            <h3>Manusi de uz casnic</h3>
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=3&product_id=128&product_title=Pudra%20Pikosch">
+                <h3>Pudra Pikosch</h3>
+            </a>
         </div>
         <div class="prod-3-img">
            <img src="img/logo-web.jpg" alt="">
@@ -53,55 +57,51 @@
     </div>
 </div>
 
-    <div class="titlu">
-        <h2>Categorii de produse:</h2>
-    </div>
-    <div class="categorii-container">
-    
 
-    <?php getCats(); ?>
+<div class="titlu">
+    <h2>Categorii de produse:</h2>
+</div>
 
-        <!-- <div class="Cat-1">
-            <h2>Dotari complete pentru clinici, spitale, cabinete medicale, 
-                camine de batrani, reparatii si service aparatura medicala
-            </h2>
+<div class="new-container">
+
+<?php getCats(); ?>
+<!-- <a href="produse.php">
+    <div class="categ-1 frame">
+        <div class="poza1">
+            <img src="img/hallway-5979689_1920.jpg" alt="">
         </div>
-        <div class="img-1">
-            <a href="aparatura-medicala.php"><img src="img/logo-web.jpg" alt=""></a>
+        <div class="categ-titlu1">
+            <p>Dotari medicale si service</p>
         </div>
-        <div class="Cat-2">
-            <h2>Truse de prim ajutor - pentru birou, industrie, restaurante, catering, 
-                arsuri, genti, rucsacuri si cutii speciale pentru prim ajutor si interventii medicale
-            </h2>
-        </div>
-        <div class="img-2">
-            <img src="img/logo-web.jpg" alt="">
-        </div>
-        <div class="Cat-3">
-            <h2>Hartie si consumabile medicale, produse pentru ingrijire la domiciliu si spitalicesti.
-                Piese de schimb pentru aparatura medicala, saltele medicale si lenjerie medicala.   
-            </h2>
-        </div>
-        <div class="img-3">
-            <img src="img/logo-web.jpg" alt="">
-        </div>
-        <div class="Cat-4">
-            <h2>Aparate si sisteme de odorizare, ozonificare si purificare a aerului ecologice.
-                Dotari de toalete, camere de hotel, restaurante, baruri, birouri si terase.
-            </h2>
-        </div>
-        <div class="img-4">
-            <img src="img/logo-web.jpg" alt="">
-        </div>
-        <div class="Cat-5">
-            <h2>Mobilier special pentru spatii publice si private, evenimente publice si private.
-                Corturi fixe, pliabile, gonflabile si pneumatice, garduri si imprejurimi speciale.
-            </h2>
-        </div>
-        <div class="img-5">
-            <img src="img/logo-web.jpg" alt="">
-        </div> -->
     </div>
+</a>
+    <div class="categ-2 frame">
+        <div class="poza2">
+            <img src="img/doctor-on-call-3482994_1920.jpg" alt="">
+        </div>
+        <div class="categ-titlu2">
+            <p>Prim ajutor-urgente-genti medicale</p>
+        </div>
+    </div>
+    <div class="categ-3 frame">
+        <img src="img/pexels-nathan-cowley-713297.jpg" alt="">
+        <p>Prim ajutor-urgente-genti medicale</p>
+    </div>
+    <div class="categ-4 frame">
+        <img src="img/pexels-kaboompics-com-6267.jpg" alt="">
+        <p>Prim ajutor-urgente-genti medicale</p>
+    </div>
+    <div class="categ-5 frame">
+        <img src="img/garden-204271_1920.jpg" alt="">
+        <p>Prim ajutor-urgente-genti medicale</p>
+    </div>
+    <div class="categ-6 frame">
+        <img src="img/pexels-alexandr-podvalny-3036405.jpg" alt="">
+        <p>Prim ajutor-urgente-genti medicale</p>
+    </div> -->
+</div>
+
+
 
 
 

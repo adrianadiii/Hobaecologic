@@ -11,7 +11,7 @@
         if(isset($_GET['cat'])){
             $cat_id= $_GET['cat'];
             global $con;
-            $per_page= 6;
+            $per_page= 15;
             if(isset($_GET['page'])){
                 $page= $_GET['page'];
             } else {
@@ -49,7 +49,7 @@
                             <p> $pro_desc_short</p>
                         </div>
                         <div class='titlu-1'>
-                            <a class='modal-button button' href='details.php?cat=$cat_id&product_id=$pro_id'>$pro_title</button>
+                            <a class='modal-button button' href='details.php?cat=$cat_id&product_id=$pro_id&product_title=$pro_title'>$pro_title</button>
                             <!-- The Modal -->
                             <div id='myModal1-$pro_id' class='modal'>
     

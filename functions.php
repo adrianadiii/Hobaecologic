@@ -38,19 +38,30 @@ function getCats(){
         
         $cat_image= $row_image_category['cat_image'];
 
-        echo "<div class='cat-prod'>
-                <a href='produse.php?cat=$cat_id&category=$cat_title'>
-                    <div class='Cat-1'>
-                        <h2>$cat_title</h2>
-                    </div>
-                </a>
-                <a href='produse.php?cat=$cat_id&category=$cat_title'>
-                    <div class='img-1'>
-                        <img src='admin_area/product_images/$cat_image' alt=''>
-                    </div>
-                </a>
+        // echo "<div class='cat-prod'>
+        //         <a href='produse.php?cat=$cat_id&category=$cat_title'>
+        //             <div class='Cat-1'>
+        //                 <h2>$cat_title</h2>
+        //             </div>
+        //         </a>
+        //         <a href='produse.php?cat=$cat_id&category=$cat_title'>
+        //             <div class='img-1'>
+        //                 <img src='admin_area/product_images/categorii_images/$cat_image' alt=''>
+        //             </div>
+        //         </a>
+        //     </div>
+        //     ";
+        echo " <a href='produse.php?cat=$cat_id&category=$cat_title'>
+            <div class='categ-1 frame'>
+                <div class='poza1'>
+                    <img src='admin_area/product_images/categorii_images/$cat_image' alt=''>
+                </div>
+                <div class='categ-titlu1'>
+                    <p>$cat_title</p>
+                </div>
             </div>
-            ";
+        </a>       
+        ";
     }
 
 
@@ -101,7 +112,7 @@ function getcatpros(){
         } else {
             echo "
                 <div class='produse-aparatura-medicala'>
-                <img src='admin_area/product_images/$cat_image' alt=''>
+                <img src='admin_area/product_images/categorii_images/$cat_image' alt=''>
                     <h1> $cat_title </h1>
                     <p> $cat_desc </p>
                 </div>

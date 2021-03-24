@@ -110,3 +110,6 @@ function showSlides(n) {
 }
 
 
+
+// Ce spun clientii despre noi
+

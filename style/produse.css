@@ -1,17 +1,24 @@
 /* Aparatura medicala Categorie produse */
 /* =============== */
-.lista-produse,
+
+.lista-produse{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+
 .produse-aparatura-medicala{
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 20px;
-	/* margin-left: 100px;
-	margin-right: 100px; */
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 .produse-aparatura-medicala img{
 	width: 100%;
-	height: 390px;
+	height: 480px;
 }
 
 .produse-aparatura-medicala h1,
@@ -246,6 +253,7 @@
   
   /* Position the "next button" to the right */
 .next {
+	background: #c7c7c7;
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
@@ -256,6 +264,7 @@
 }
   
 .prev{
+	background: #c7c7c7;
 	left: 0;
 }
   
@@ -276,6 +285,13 @@
 }
    */
   /* Fading animation */
+
+.mySlides1{
+	position: relative;
+	text-align: center;
+}
+
+
 .fade {
 	-webkit-animation-name: fade;
 	-webkit-animation-duration: 1.5s;
@@ -390,6 +406,7 @@
 .modal-header { grid-area: modal-header; }
 
 .full-text p{
+	word-break: break-word;
 	font-size: 1.1rem;
 	text-align: justify;
     line-height: 1.8;
@@ -401,8 +418,8 @@
 }
 
 .image img{
-	width: 100%;
-    height: 660px;
+	width: 430px;
+    height: 430px;
 }
 
 /* DETAILS PRODUCT */
@@ -448,6 +465,13 @@
 /* responsive */
 /*===========================*/
 
+@media (max-width: 1440px){
+	.produse-aparatura-medicala{
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
+
 
 @media (max-width: 1024px){
 	.aparatura-container{
@@ -466,8 +490,15 @@
 	.full-text{
 		margin: 0 0px;
 	}
-	.image img{
+	/* .image img{
 		height: 560px;
+	} */
+	.button{
+		font-size: 0.7rem;
+	}
+	.produse-aparatura-medicala{
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 }
 
@@ -489,7 +520,8 @@
 		gap: 0 10px;
 	}
 	.image img {
-		height: 490px;
+		height: 370px;
+		width: 370px;
 	}
 	.full-text p{
 		font-size: 1rem;
@@ -497,6 +529,9 @@
 	}
 	.aparatura-container {
 		width: 360px;
+	}
+	.produse-aparatura-medicala{
+		margin: 0;
 	}
 }
 
@@ -518,7 +553,7 @@
 		display: inline-block;
 	}
 	.image img {
-		height: 400px;
+		height: 330px;
 	}
 	.full-text p{
 		line-height: 1.1;
@@ -528,7 +563,7 @@
 	}
 	.button{
 		padding: 5px 10px;
-		font-size: 12px;
+		font-size: 0.6rem;
 	}
 	.cat-prod{
 		border-radius: 50px;
@@ -570,5 +605,9 @@
 	.pagination li a{
 		padding: 5px;
 		margin: 2px;
+	}
+	.image img{
+		height: 250px;
+		width: 300px;
 	}
 }

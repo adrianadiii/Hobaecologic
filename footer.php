@@ -2,6 +2,7 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=ro&theme=momh&tracking=1&always=1&showNoConsent=1&showPolicyLink=1&privacyPage=http%3A%2F%2Flocalhost%2FHobaecologic.ro%2Fcookie.php"></script>
 
+
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 
 <footer>

@@ -45,6 +45,21 @@ include("includes/db.php"); ?>
     background: #5959b9;
     transition: 1s;
 }
+
+.insert a{
+    align-self: center;
+    width: 10%;
+    padding: 8px;
+    color: #ffffff;
+    background: #53a0ca;
+    border: none;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin: 0px 130px;
+    transition: 1s;
+}
+
     </style>
 
 </head>
@@ -56,6 +71,9 @@ include("includes/db.php"); ?>
     <input class="logout" type="submit" value="Logout" name="logout">
 </form>
 
+<ul class="insert">
+<a href="http://localhost/Hobaecologic.ro/admin_area/insert_product.php">Insert Product</a>
+</ul>
 
 <div class="row">
     <div class="col-lg-12">

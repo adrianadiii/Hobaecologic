@@ -78,7 +78,7 @@ include 'header.php'; ?>
     <h1>Ce spun clientii despre noi?</h1>
 </div>
 
-<div class="clienti-fericiti">
+<!-- <div class="clienti-fericiti">
   <div class="client-1">
     <div class="parere-1">
         <i class="fas fa-2x fa-quote-right"></i> <br>
@@ -101,7 +101,41 @@ include 'header.php'; ?>
         <p>Firma Y</p>
     </div>
   </div>
+</div> -->
+
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <div class="slider__inner">
+    <div class="slider__contents">
+        <i class="fas fa-2x fa-quote-right"></i>
+        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+        <h2 class="slider__caption">John Doe</h2>
+        <h4>Firma X</h4>
+    </div>
+    <div class="slider__contents">
+        <i class="fas fa-2x fa-quote-right"></i>
+        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+        <h2 class="slider__caption">Popescu Andrei</h2>
+        <h4>Firma Y</h4>
+    </div>
+    <div class="slider__contents">
+        <i class="fas fa-2x fa-quote-right"></i>
+        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+        <h2 class="slider__caption">Eduard Valeriu</h2>
+        <h4>Firma A</h4>
+    </div>
+    <div class="slider__contents">
+        <i class="fas fa-2x fa-quote-right"></i>
+        <p class="slider__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate omnis possimus illo quos, corporis minima!</p>
+        <h2 class="slider__caption">Gigi Becali</h2>
+        <h4>Firma Z</h4>
+    </div>
+  </div>
 </div>
+
 
 
 <div class="about-title">
@@ -128,10 +162,10 @@ include 'header.php'; ?>
     </div>
     <div class="team-3">
         <div class="poza-t3">
-            <img src="img/logo-web.jpg" alt="">
+            <img src="img/poza-aurel.jpg" alt="">
         </div>
         <div class="functie-t3">
-            <h2>Popescu <br> Specialist service</h2>
+            <h2>Aurel <br> Specialist service</h2>
         </div>
     </div>
 </div>

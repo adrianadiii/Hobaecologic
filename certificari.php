@@ -13,7 +13,7 @@
         <img src="img/logo-web.jpg" alt="">
     </div>
     <div class="button-certificare-1">
-        <a href="img/moduri.pdf" target="blank">Certificat de excelenta</a>
+        <a href="#" target="blank">Certificat de excelenta</a>
     </div>
   </div>
   <div class="certificare-2">
@@ -21,7 +21,7 @@
         <img src="img/logo-web.jpg" alt="">
     </div>
     <div class="button-certificare-2">
-        <a href="img/reguli.pdf" target="blank">Certificat de conformitate</a>
+        <a href="#" target="blank">Certificat de conformitate</a>
     </div>
   </div>
   <div class="certificare-3">
@@ -29,7 +29,7 @@
         <img src="img/logo-web.jpg" alt="">
     </div>
     <div class="button-certificare-3">
-        <a href="img/pasi-pentru.pdf" target="blank">Certificat de prestigiu</a>
+        <a href="#" target="blank">Certificat de prestigiu</a>
     </div>
   </div>
 </div>
