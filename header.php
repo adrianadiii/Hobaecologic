@@ -70,9 +70,9 @@ if(isset($_GET['product_id'])){
     <ul class="navbar-links">
       <li><a class="btn <?php if($active == 'Acasa') echo"active"; ?>" id="acasa" href="index.php">Acasa</a></li>
       <li><a class="btn <?php if($active == 'Despre Noi') echo"active"; ?>" id="despre" href="despre_noi.php">Despre noi</a></li>
-      <li><a class="btn <?php if($active == 'Contact') echo"active"; ?>" id="produse" href="contact.php">Contact</a></li>
-      <li><a class="btn <?php if($active == 'Conditii Generale') echo"active"; ?>" id="intrebari" href="conditii_generale.php">Conditii generale</a></li>
-      <li><a class="btn <?php if($active == 'Certificari') echo"active"; ?>" id="contact" href="certificari.php">Certificari</a></li>
+      <li><a class="btn <?php if($active == 'Contact') echo"active"; ?>" id="contact" href="contact.php">Contact</a></li>
+      <li><a class="btn <?php if($active == 'Conditii Generale') echo"active"; ?>" id="conditii" href="conditii_generale.php">Conditii generale</a></li>
+      <li><a class="btn <?php if($active == 'Certificari') echo"active"; ?>" id="certificari" href="#">Certificari</a></li>
     </ul>
   </nav>
 </header>

@@ -113,3 +113,13 @@ function showSlides(n) {
 
 // Ce spun clientii despre noi
 
+// cere oferta
+
+function cereoferta() {
+  var x = document.getElementById("oferta");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

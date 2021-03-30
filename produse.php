@@ -129,7 +129,7 @@
         //      </li>
          
         //  ";
-        if($page > 1){
+        if($page > 4){
             echo "
             <li>
              
@@ -155,7 +155,7 @@
              
          };
          
-         if($page > 2){
+         if($page > 5){
             echo "
             <li>
              

@@ -144,7 +144,7 @@ if(isset($_POST['submit'])){
             $_SESSION['uname'] = $uname;
             header('Location: insert_product.php');
         }else{
-            echo "Invalid username and password";
+            echo "Invalid username or password";
         }
 
     }
