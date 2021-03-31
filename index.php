@@ -33,10 +33,14 @@
     <h1>Produse noi:</h1>
     <div class="produse-noi-container">
         <div class="prod-1-img">
-            <img src="img/logo-web.jpg" alt="">
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=1&product_id=143&product_title=Pulsoximetru%20CMS%2050D">
+                <img src="admin_area/product_images/pulsoximetru-cms.JPG" alt="">
+            </a>
         </div>
         <div class="prod-1-title">
-            <h3>Manusi de uz casnic</h3>
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=1&product_id=143&product_title=Pulsoximetru%20CMS%2050D">
+                <h3>Pulsoximetru CMS 50d</h3>
+            </a>
         </div>
         <div class="prod-2-img">
             <a href="http://localhost/Hobaecologic.ro/details.php?cat=3&product_id=128&product_title=Pudra%20Pikosch">
@@ -49,10 +53,14 @@
             </a>
         </div>
         <div class="prod-3-img">
-           <img src="img/logo-web.jpg" alt="">
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=4&product_id=145&product_title=Gel%20antibacterian%20instant%20Sanitex">
+                <img src="admin_area/product_images//gel-antibacterian-sanitex.JPG" alt="">
+            </a>
         </div>
         <div class="prod-3-title">
-            <h3>Manusi de uz casnic</h3>
+            <a href="http://localhost/Hobaecologic.ro/details.php?cat=4&product_id=145&product_title=Gel%20antibacterian%20instant%20Sanitex">
+                <h3>Gel antibacterian instant Sanitex</h3>
+            </a>
         </div>
     </div>
 </div>

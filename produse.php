@@ -155,7 +155,7 @@
              
          };
          
-         if($page > 5){
+         if($page > 4){
             echo "
             <li>
              
