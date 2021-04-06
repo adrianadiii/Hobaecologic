@@ -73,40 +73,7 @@
 <div class="new-container">
 
 <?php getCats(); ?>
-<!-- <a href="produse.php">
-    <div class="categ-1 frame">
-        <div class="poza1">
-            <img src="img/hallway-5979689_1920.jpg" alt="">
-        </div>
-        <div class="categ-titlu1">
-            <p>Dotari medicale si service</p>
-        </div>
-    </div>
-</a>
-    <div class="categ-2 frame">
-        <div class="poza2">
-            <img src="img/doctor-on-call-3482994_1920.jpg" alt="">
-        </div>
-        <div class="categ-titlu2">
-            <p>Prim ajutor-urgente-genti medicale</p>
-        </div>
-    </div>
-    <div class="categ-3 frame">
-        <img src="img/pexels-nathan-cowley-713297.jpg" alt="">
-        <p>Prim ajutor-urgente-genti medicale</p>
-    </div>
-    <div class="categ-4 frame">
-        <img src="img/pexels-kaboompics-com-6267.jpg" alt="">
-        <p>Prim ajutor-urgente-genti medicale</p>
-    </div>
-    <div class="categ-5 frame">
-        <img src="img/garden-204271_1920.jpg" alt="">
-        <p>Prim ajutor-urgente-genti medicale</p>
-    </div>
-    <div class="categ-6 frame">
-        <img src="img/pexels-alexandr-podvalny-3036405.jpg" alt="">
-        <p>Prim ajutor-urgente-genti medicale</p>
-    </div> -->
+
 </div>
 
 
