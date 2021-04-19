@@ -18,7 +18,7 @@
                 $page= 1;
             }
             $per_page= 15;
-            $offset = ($page-1) * $per_page;
+            
             $previous_page = $page - 1;
             $next_page = $page + 1;
             $adjacents = "2"; 
@@ -114,6 +114,8 @@
         ?>
         </div>
         <div class="pagination">
+
+
         <?php 
         $query = "select * from produse where cat_id='$cat_id'";
         $result= mysqli_query($con, $query);
@@ -175,10 +177,10 @@
 
             elseif($page > 4 && $page < $total_pages - 4) {		 
                 echo "<li>
-                        <a href='?page_no=1'>1</a>
+                        <a href='produse.php?cat=$cat_id&page=1'>1</a>
                     </li>";
                 echo "<li>
-                        <a href='?page_no=2'>2</a>
+                        <a href='produse.php?cat=$cat_id&page=2'>2</a>
                     </li>";
                 echo "<li>
                         <a>...</a>
