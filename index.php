@@ -24,9 +24,6 @@
     vânzare, respectarea cu strictețe a clientului, precum și a regulilor de business.
     </p> 
 </div>
-<!-- <div class="cine-suntem-image">
-    <img src="img/de-la-specialisti.jpg" alt="">
-</div> -->
 
 
 <div class="produse-noi">
@@ -65,6 +62,45 @@
     </div>
 </div>
 
+<div class="beneficii-widget">
+  <div class="beneficiu-1">
+    <div class="icon-1"><img src="img/express-delivery.png" width="100px" height="100px" alt=""></div>
+    <div class="text-icon-1">
+        <p>Livrare rapida, max 48h</p>
+    </div>
+  </div>
+  <div class="beneficiu-2">
+    <div class="icon-2"><img src="img/exchange.png" width="100px" height="100px" alt=""></div>
+    <div class="text-icon-2">
+        <p>Garantie retur 30 de zile</p>
+    </div>
+  </div>
+  <div class="beneficiu-3">
+    <div class="icon-3"><img src="img/guarantee-certificate.png" width="100px" height="100px" alt=""></div>
+    <div class="text-icon-3">
+        <p>Garantie produs 36 de luni</p>
+    </div>
+  </div>
+  <div class="beneficiu-4">
+    <div class="icon-4"><img src="img/export.png" width="100px" height="100px" alt=""></div>
+    <div class="text-icon-4">
+        <p>Import direct</p>
+    </div>
+  </div>
+  <div class="beneficiu-5">
+    <div class="icon-5"><img src="img/repair-tools.png" width="100px" height="100px" alt=""></div>
+    <div class="text-icon-5">
+        <p>Service/reparatii</p>
+    </div>
+  </div>
+  <div class="beneficiu-6">
+    <div class="icon-6"><img src="img/warehouse.png" width="100px" height="100px" alt=""></i></div>
+    <div class="text-icon-6">
+        <p>Livrare din stoc</p>
+    </div>
+  </div>
+</div>
+
 
 <div class="titlu">
     <h2>Categorii de produse:</h2>
@@ -76,9 +112,11 @@
 
 </div>
 
-
-
-
+<div class="rights">
+    <p>Toate imaginile si logo-urile folosite in acest website sunt proprietate a HEAS sau a partenerilor nostri.
+        Orice utilizare a acestora necesita solicitarea dreptului de folosinta de la HEAS.
+    </p>
+</div>
 
     <!-- <div class="utile">
         <div class="titlu-link">

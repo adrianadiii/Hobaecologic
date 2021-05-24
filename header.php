@@ -42,8 +42,7 @@ if(isset($_GET['product_id'])){
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-
-    
+        
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +57,33 @@ if(isset($_GET['product_id'])){
     <link rel="stylesheet" href="style/produse.css">
     <link rel="stylesheet" href="style/conditii_generale.css">
 
+    <link href="https://admin.chatcompose.com/static/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">
+    <script async type="text/javascript" src="https://admin.chatcompose.com/static/all/global/export/js/main.a7059cb5.js?user=adrian123&lang=RO" user="adrian123" lang="RO"></script>
+
+
+<!-- Start of ChatBot (www.chatbot.com) code -->
+<!-- <script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "608911280c90bd0007963eff";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script> -->
+<!-- End of ChatBot code -->
+
+<!-- Smartsupp Live Chat script -->
+<!-- <script type="text/javascript">
+var _smartsupp = _smartsupp || {};
+_smartsupp.key = 'a37b6327c589bf8d4971e8621a80da7504521daa';
+window.smartsupp||(function(d) {
+  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+  c.type='text/javascript';c.charset='utf-8';c.async=true;
+  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+})(document);
+</script> -->
 
 </head>
 <header>
@@ -73,6 +99,7 @@ if(isset($_GET['product_id'])){
       <li><a class="btn <?php if($active == 'Contact') echo"active"; ?>" id="contact" href="contact.php">Contact</a></li>
       <li><a class="btn <?php if($active == 'Conditii Generale') echo"active"; ?>" id="conditii" href="conditii_generale.php">Conditii generale</a></li>
       <li><a class="btn <?php if($active == 'Certificari') echo"active"; ?>" id="certificari" href="certificari.php">Certificari</a></li>
+      <li><a class="btn <?php if($active == 'Calendar') echo"active"; ?>" id="calendar" href="calendar.php">Calendar</a></li>
     </ul>
   </nav>
 </header>

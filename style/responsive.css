@@ -144,6 +144,13 @@
     margin-right: 50px;
     gap: 0px 30px;
   }
+  .text-icon-1 p, .text-icon-2 p, .text-icon-3 p, .text-icon-4 p, .text-icon-5 p , .text-icon-6 p{
+    font-size: 1rem;
+  }
+  .icon-1 img, .icon-2 img, .icon-3 img, .icon-4 img, .icon-5 img, .icon-6 img{
+    width: 80px;
+    height: 80px;
+  }
 }
 
 @media (max-width: 952px){
@@ -315,6 +322,16 @@
   }
   .categ-titlu1 p {
     font-size: 0.9rem;
+  }
+  .icon-1 img, .icon-2 img, .icon-3 img, .icon-4 img, .icon-5 img, .icon-6 img {
+    width: 65px;
+    height: 65px;
+  }
+  .beneficiu-1, .beneficiu-2, .beneficiu-3, .beneficiu-4, .beneficiu-5, .beneficiu-6{
+    gap: 0px 10px;
+  }
+  .rights p{
+    font-size: 1rem;
   }
 }
 
@@ -519,7 +536,31 @@
     display: inline-block;
   }
   .poza1 img{
-    height: 250px;
+    height: 220px;
+    opacity: 1;
+  }
+  .icon-1 img, .icon-2 img, .icon-3 img, .icon-4 img, .icon-5 img, .icon-6 img {
+    width: 55px;
+    height: 65px;
+  }
+  .text-icon-1 p, .text-icon-2 p, .text-icon-3 p, .text-icon-4 p, .text-icon-5 p, .text-icon-6 p {
+    font-size: 0.7rem;
+  }
+  .beneficii-widget {
+    background: rgb(236 236 236);
+    margin-bottom: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    gap: 20px 0px;
+    grid-template-areas:
+        "beneficiu-1 beneficiu-2"
+        "beneficiu-3 beneficiu-4"
+        "beneficiu-5 beneficiu-6";
+  }
+  .rights p {
+    font-size: 0.9rem;
   }
 }
 
@@ -589,6 +630,9 @@
   .categ-titlu1 p {
     font-size: 0.65rem;
   }
+  .beneficii-widget{
+    gap: 20px 10px;
+  }
 }
 
 @media (max-width: 320px){
@@ -642,6 +686,9 @@
   }
   .poza1 img {
     height: 150px;
+  }
+  .rights p {
+    font-size: 0.8rem;
   }
 }
 

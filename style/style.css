@@ -349,6 +349,16 @@ nav ul li a.active{
 
 /* ========================= */
 
+.rights{
+	margin-bottom: 20px;
+}
+
+.rights p {
+	text-align: center;
+	color: #53a0ca;
+	font-size: 1.3rem;
+}
+
 
 /* FOOTER HERE */
 /* ========================= */
@@ -654,7 +664,7 @@ footer{
 	z-index: 645884;
     position:fixed;
     right:10px;
-    bottom:10px;
+    bottom:82px;
     cursor:pointer;
     width:50px;
     height:50px;
@@ -775,14 +785,14 @@ footer{
 	align-self: center;
 }
 
-.fa-certificate,
+.valori-img1 .fa-certificate,
 .fa-leaf,
 .fa-people-arrows{
 	color: #53a0ca;
 	transition: 1s;
 }
 
-.fa-certificate:hover{
+.valori-img1 .fa-certificate:hover{
 	color: rgb(177, 177, 46);
 	transition: 1s;
 }
@@ -1248,3 +1258,121 @@ footer{
 	width: 60%;
 	padding: 0 120px;
 }
+
+
+
+/* WIDGET BENEFICII */
+/*===========================*/
+
+
+.beneficii-widget {
+	background: rgb(236 236 236);
+	margin-bottom: 50px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.5fr 0.5fr;
+	gap: 20px 0px;
+	grid-template-areas:
+	  "beneficiu-1 beneficiu-2 beneficiu-3"
+	  "beneficiu-4 beneficiu-5 beneficiu-6";
+}
+  
+.beneficiu-1 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-1 text-icon-1";
+	grid-area: beneficiu-1;
+}
+  
+.icon-1 { grid-area: icon-1; }
+  
+.text-icon-1 { grid-area: text-icon-1; }
+  
+.beneficiu-2 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-2 text-icon-2";
+	grid-area: beneficiu-2;
+}
+  
+.icon-2 { grid-area: icon-2; }
+  
+.text-icon-2 { grid-area: text-icon-2; }
+  
+.beneficiu-3 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-3 text-icon-3";
+	grid-area: beneficiu-3;
+}
+  
+.icon-3 { grid-area: icon-3; }
+  
+.text-icon-3 { grid-area: text-icon-3; }
+  
+.beneficiu-4 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-4 text-icon-4";
+	grid-area: beneficiu-4;
+}
+  
+.icon-4 { grid-area: icon-4; }
+  
+.text-icon-4 { grid-area: text-icon-4; }
+  
+.beneficiu-5 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-5 text-icon-5";
+	grid-area: beneficiu-5;
+}
+  
+.icon-5 { grid-area: icon-5; }
+  
+.text-icon-5 { grid-area: text-icon-5; }
+  
+.beneficiu-6 {
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 0px 15px;
+	grid-template-areas:
+	  "icon-6 text-icon-6";
+	grid-area: beneficiu-6;
+}
+  
+.icon-6 { grid-area: icon-6; }
+  
+.text-icon-6 { grid-area: text-icon-6; }
+  
+.text-icon-1, .text-icon-2, .text-icon-3, .text-icon-4, .text-icon-5, .text-icon-6{
+	align-self: center;
+	text-align: initial;
+	font-size: 1.4rem;
+}
+
+.icon-1, .icon-2, .icon-3, .icon-4, .icon-5, .icon-6{
+	text-align: end;
+}
+
+
+
+
+  /*===========================*/

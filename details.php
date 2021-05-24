@@ -9,22 +9,22 @@
 <div class="slideshow-container">
     <div id="slide1" class="mySlides1 fade"> 
         <div class="image img1">
-                <img src="admin_area/product_images/<?php echo $pro_img1; ?>" >
+                <img src="admin_area/product_images/<?php echo $pro_img1; ?>" alt="<?php echo $pro_title ?>" >
         </div>
         </div>
         <div class="mySlides1 fade">
             <div class="image img2">
-                <img src="admin_area/product_images/<?php echo $pro_img2; ?>" >
+                <img src="admin_area/product_images/<?php echo $pro_img2; ?>" <?php echo $pro_title ?> >
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="image img3">
-                <img src="admin_area/product_images/<?php echo $pro_img3; ?>" >
+                <img src="admin_area/product_images/<?php echo $pro_img3; ?>" <?php echo $pro_title ?> >
             </div>
         </div>
         <div class="mySlides1 fade">
             <div class="image img4">
-                <img src="admin_area/product_images/<?php echo $pro_img4; ?>" >
+                <img src="admin_area/product_images/<?php echo $pro_img4; ?>" <?php echo $pro_title ?> >
             </div>
         </div>
             <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a> 
