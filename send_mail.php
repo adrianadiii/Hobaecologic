@@ -47,6 +47,7 @@ if(isset($_POST['submit']))
         // More headers
         $headers .= 'From: Admin <info@hobaecologic.ro>' . "\r\n"; // Give an email id on which you want get a reply. User will get a mail from this email id
 
+
          
         if(mail($to,$subject,$message,$headers)){
             // Message if mail has been sent

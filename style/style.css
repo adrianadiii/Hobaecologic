@@ -629,6 +629,7 @@ footer{
 .btn input:hover{
   	background: #fff;
   	color: #53a0ca;
+	text-decoration: none;
 }
 
 .btn input:focus{
