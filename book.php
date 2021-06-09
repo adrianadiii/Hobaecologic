@@ -46,33 +46,39 @@ $mysqli = new mysqli('localhost', 'root', '', 'bookingcalendar');
     }
     
     
-    $duration = 20;
-    $cleanup = 0;
-    $start = "09:00";
-    $end = "10:00";
-    
-    
-    function timeslots($duration, $cleanup, $start, $end){
-        $start = new DateTime($start);
-        $end = new DateTime($end);
-        $interval = new DateInterval("PT".$duration."M");
-        $cleanupInterval = new DateInterval("PT".$cleanup."M");
-        $slots = array();
+    // $duration = 20;
+    // $cleanup = 0;
+    // $start = "09:00";
+    // $end = "10:00";
+    // function timeslots($duration, $cleanup, $start, $end){
+    //     $start = new DateTime($start);
+    //     $end = new DateTime($end);
+    //     $interval = new DateInterval("PT".$duration."M");
+    //     $cleanupInterval = new DateInterval("PT".$cleanup."M");
+    //     $slots = array();
         
-        for($intStart = $start; $intStart<$end; $intStart->add($interval)->add($cleanupInterval)){
-            $endPeriod = clone $intStart;
-            $endPeriod->add($interval);
-            if($endPeriod>$end){
-                break;
-            }
+    //     for($intStart = $start; $intStart<$end; $intStart->add($interval)->add($cleanupInterval)){
+    //         $endPeriod = clone $intStart;
+    //         $endPeriod->add($interval);
+    //         if($endPeriod>$end){
+    //             break;
+    //         }
             
-            $slots[] = $intStart->format("H:iA")." - ". $endPeriod->format("H:iA");
+    //         $slots[] = $intStart->format("H:iA")." - ". $endPeriod->format("H:iA");
             
-        }
+    //     }
         
-        return $slots;
-    }
+    //     return $slots;
+    // }
 
+
+    function timeslots(){
+        $arr = array();
+        $arr[] = 'Rezervare 1';
+        $arr[] = 'Rezervare 2';
+        $arr[] = 'Rezervare 3';
+        return $arr;
+    }
 
 ?>
 
@@ -147,7 +153,7 @@ $mysqli = new mysqli('localhost', 'root', '', 'bookingcalendar');
             <div class="col-md-3">
                 <?php echo(isset($msg))?$msg:""; ?>
             </div>
-            <?php $timeslots = timeslots($duration, $cleanup, $start, $end); 
+            <?php $timeslots = timeslots(); 
                 foreach($timeslots as $ts){
             ?>
             <div class="col-md-2">

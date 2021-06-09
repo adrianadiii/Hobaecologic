@@ -93,7 +93,7 @@ function build_calendar($month, $year) {
         //     $calendar.="<td><h4>$currentDay</h4> <button class='btn btn-danger btn-m book'>Weekend</button>";
         // }else
         if($date<date('Y-m-d')){
-            $calendar.="<td><h4>$currentDay</h4> <button class='btn btn-danger btn-m book' disabled>Indisponibil</button>";
+            $calendar.="<td><h4>$currentDay</h4> <button class='btn btn-danger btn-xs book' disabled>Indisponibil</button>";
         }
         //  elseif(in_array($date, $bookings)){
         //      $calendar.="<td><h4>$currentDay</h4> <button class='btn btn-danger btn-xs'>Already Booked</button>";
@@ -101,10 +101,10 @@ function build_calendar($month, $year) {
         else{
             $totalbookings= checkSlots($mysqli,$date);
             if($totalbookings==3){
-                $calendar.="<td class='$today'><h4>$currentDay</h4> <a href='#' class='btn btn-danger btn-m book'>Total ocupat</a>";
+                $calendar.="<td class='$today'><h4>$currentDay</h4> <a href='#' class='btn btn-danger btn-xs book'>Total ocupat</a>";
             }else{
                 $availableslots= 3-$totalbookings;
-                $calendar.="<td class='$today'><h4>$currentDay</h4> <a href='book.php?date=".$date."' class='btn btn-success btn-m book'>Rezerva</a>
+                $calendar.="<td class='$today'><h4>$currentDay</h4> <a href='book.php?date=".$date."' class='btn btn-success btn-xs book'>Rezerva</a>
                 <br><small><i>$availableslots rezervari ramase</i></small>";
             }
             
@@ -250,9 +250,8 @@ th{
     text-align: center;
 }
 
-.row{
+.row,.row1{
     width: 100%;
-    margin-top: 20px;
     text-align: center;
 }
 
@@ -261,7 +260,7 @@ th{
 }
 
 .container1{
-    padding: 0 150px;
+    padding: 0 100px;
     margin-top: 100px;
 }
 
@@ -278,28 +277,63 @@ th{
     margin: 10px;
 }
 
+.ecrane {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "row row1";
+}
+
+.row { grid-area: row; }
+
+.row1 { grid-area: row1; }
+
+.booking-photo{
+    margin-bottom: 100px;
+}
+
+.booking-photo img{
+    width: 100%;
+    height: 583px;
+}
+
+.description-container{
+    margin-bottom: 70px;
+}
+
 </style>
 
 <body>
     <div class="container1">
-        <div class="row">
-            <div class="col-md-12">
-                <?php 
-                    $dateComponents = getdate();
-                    if(isset($_GET['month']) && isset($_GET['year'])){
-                        $month= $_GET['month'];
-                        $year= $_GET ['year'];
-                    } else {
-                        $month= $dateComponents['mon'];
-                        $year= $dateComponents['year'];
-                    }
+        <div class="ecrane">
+            <div class="row">
+                <div class="description-container">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius et tempore eveniet, magni minus esse possimus iste dolor rem minima dolorem at obcaecati itaque doloremque! Fuga voluptatum debitis asperiores deserunt?</h4>
+                </div>
+                <div class="booking-photo">
+                    <img src="img/hallway-5979689_1920_1.jpg" alt="">
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col-md-12">
+                    <?php 
+                        $dateComponents = getdate();
+                        if(isset($_GET['month']) && isset($_GET['year'])){
+                            $month= $_GET['month'];
+                            $year= $_GET ['year'];
+                        } else {
+                            $month= $dateComponents['mon'];
+                            $year= $dateComponents['year'];
+                        }
 
-                    echo build_calendar($month, $year);
-                ?>
+                        echo build_calendar($month, $year);
+                    ?>
+                </div>
             </div>
         </div>
     </div>
-
 </body>
 
 <?php include 'footer.php' ?>

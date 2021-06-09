@@ -57,12 +57,14 @@ if(isset($_GET['product_id'])){
     <link rel="stylesheet" href="style/produse.css">
     <link rel="stylesheet" href="style/conditii_generale.css">
 
-    <!-- <link href="https://admin.chatcompose.com/static/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">
-    <script async type="text/javascript" src="https://admin.chatcompose.com/static/all/global/export/js/main.a7059cb5.js?user=adrian123&lang=RO" user="adrian123" lang="RO"></script> -->
 
+    <!-- <link href="https://chatcompose.azureedge.net/static/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">    
+    <script async type="text/javascript" src="https://chatcompose.azureedge.net/static/all/global/export/js/main.a7059cb5.js?user=hobaecologic&lang=RO" user="hobaecologic" lang="RO"></script>   -->
 
-    <link href="https://chatcompose.azureedge.net/static/all/global/export/css/main.5b1bd1fd.css" rel="stylesheet">    
-    <script async type="text/javascript" src="https://chatcompose.azureedge.net/static/all/global/export/js/main.a7059cb5.js?user=hobaecologic&lang=RO" user="hobaecologic" lang="RO"></script>  
+<!-- Start of hobaecologic Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=09beca08-f90f-460a-b200-3ffb384c44e4"> </script>
+<!-- End of hobaecologic Zendesk Widget script -->
+
 
 </head>
 <header>
